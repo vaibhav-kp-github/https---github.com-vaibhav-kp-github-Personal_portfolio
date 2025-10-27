@@ -1,0 +1,239 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Six+Caps&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Meow+Script&family=Six+Caps&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Climate+Crisis&family=Meow+Script&family=Six+Caps&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Boldonse&family=Climate+Crisis&family=Meow+Script&family=Six+Caps&display=swap');
+
+.archivo-font {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.climate-crisis {
+    font-family: "Climate Crisis", sans-serif;
+}
+
+.meow {
+    font-family: "Meow Script", cursive;
+}
+
+.cursive-font {
+    font-family: "Meow Script", cursive;
+}
+
+.six-caps-font {
+    font-family: "Six Caps", sans-serif;
+    font-style: normal;
+}
+
+.boldonse {
+    font-family: "Boldonse", system-ui;
+}
+
+.inset-shadow-bottom {
+    box-shadow: inset 0 -50px 24px -12px rgba(217, 8, 8, 0.5);
+    /* rose-600 color */
+}
+
+.bg-form-img{
+    background-image: url(/src/images/prople.avif);
+}
+
+
+
+.scroller[data-animated="true"] .scroller-inner{
+    animation: scrollSlider 30s linear infinite;
+}
+
+@keyframes scrollSlider{
+    to{
+        transform: translate(calc( -100% - 1.25rem));
+    }
+}
+
+
+.animate-scroll {
+    animation: scroll 25s linear infinite;
+}
+
+.delay1 {
+    animation-delay: calc(25s / 18 * (18 - 1) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay1{
+
+    animation-delay: calc(50s / 18 * (18 - 1) * 1);
+}
+}
+
+.delay2 {
+    animation-delay: calc(25s / 18 * (18 - 2) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay2{
+
+    animation-delay: calc(50s / 18 * (18 - 2) * 1);
+}
+}
+
+.delay3 {
+    animation-delay: calc(25s / 18 * (18 - 3) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay3{
+
+    animation-delay: calc(50s / 18 * (18 - 3) * 1);
+}
+}
+
+.delay4 {
+    animation-delay: calc(25s / 18 * (18 - 4) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay4{
+
+    animation-delay: calc(50s / 18 * (18 - 4) * 1);
+}
+}
+
+.delay5 {
+    animation-delay: calc(25s / 18 * (18 - 5) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay5{
+
+    animation-delay: calc(50s / 18 * (18 - 5) * 1);
+}
+}
+
+.delay6 {
+    animation-delay: calc(25s / 18 * (18 - 6) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay6{
+
+    animation-delay: calc(50s / 18 * (18 - 6) * 1);
+}
+}
+
+.delay7 {
+    animation-delay: calc(25s / 18 * (18 - 7) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay7{
+
+    animation-delay: calc(50s / 18 * (18 - 7) * 1);
+}
+}
+
+.delay8 {
+    animation-delay: calc(25s / 18 * (18 - 8) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay8{
+
+    animation-delay: calc(50s / 18 * (18 - 8) * 1);
+}
+}
+
+.delay9 {
+    animation-delay: calc(25s / 18 * (18 - 9) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay9{
+
+    animation-delay: calc(50s / 18 * (18 - 9) * 1);
+}
+}
+
+.delay10 {
+    animation-delay: calc(25s / 18 * (18 - 10) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay10{
+
+    animation-delay: calc(50s / 18 * (18 - 10) * 1);
+}
+}
+
+.delay11 {
+    animation-delay: calc(25s / 18 * (18 - 11) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay11{
+
+    animation-delay: calc(50s / 18 * (18 - 11) * 1);
+}
+}
+
+.delay12 {
+    animation-delay: calc(25s / 18 * (18 - 12) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay12{
+
+    animation-delay: calc(50s / 18 * (18 - 12) * 1);
+}
+}
+
+.delay13 {
+    animation-delay: calc(25s / 18 * (18 - 13) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay13{
+
+    animation-delay: calc(50s / 18 * (18 - 13) * 1);
+}
+}
+
+.delay14 {
+    animation-delay: calc(25s / 18 * (18 - 14) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay14{
+
+    animation-delay: calc(50s / 18 * (18 - 14) * 1);
+}
+}
+
+.delay15 {
+    animation-delay: calc(25s / 18 * (18 - 15) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay15{
+
+    animation-delay: calc(50s / 18 * (18 - 15) * 1);
+}
+}
+
+.delay16 {
+    animation-delay: calc(25s / 18 * (18 - 16) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay16{
+
+    animation-delay: calc(50s / 18 * (18 - 16) * 1);
+}
+}
+
+.delay17 {
+    animation-delay: calc(25s / 18 * (18 - 17) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay17{
+
+    animation-delay: calc(50s / 18 * (18 - 17) * 1);
+}
+}
+
+.delay18 {
+    animation-delay: calc(25s / 18 * (18 - 18) * 1);
+}
+@media screen and (max-width: 640px) {
+.delay18{
+
+    animation-delay: calc(50s / 18 * (18 - 18) * 1);
+}
+}
